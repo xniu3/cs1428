@@ -1,0 +1,38 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 40px;
+}
+#middle {
+	display: -webkit-flex;
+	flex-direction: row;
+	position: fixed;
+	top: 10;
+	left: 10;
+}
+
+.A, .B, .C, .D , .E {
+	width: 90px;
+	height: 150px;
+	border-left: 10px;
+	border-left-color: #D0D0FF;
+	border-left-style: dotted;
+	padding-left: 20px;
+	text-align: left;
+    margin: 10px;
+	background-color: #eeeff2;
+}
+
+.F {
+    /*background: #687291;
+    border: 4px black solid;*/
+    position:absolute;
+    bottom:0;
+    right:0;
+    justify-content: bottom;
+    text-align: left;
+    line-height:100px;
+}
+p:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
